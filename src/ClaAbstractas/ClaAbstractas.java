@@ -21,9 +21,11 @@ public class ClaAbstractas {
         Double resultadoC= cuadrad.calcularArea();
         System.out.println("El area de un cuadrado es:" + resultadoC );
         
-        Circulo circul = new Circulo(4,5,3);
+        Circulo circul = new Circulo(4,4,4);
         System.out.println("El area de un circulo es : " + circul.calcularArea());
        
+        
+        System.out.println("Perimetro del circulo es : " + circul.calcularPerimetro());
         
     }
     

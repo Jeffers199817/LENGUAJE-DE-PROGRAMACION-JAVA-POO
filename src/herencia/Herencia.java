@@ -16,10 +16,18 @@ public class Herencia {
     public static void main(String[] args) {
         // TODO code application logic here
         
+       Persona  per = new Persona(1,"23423"," Jefferson", "aqluinga", " Puembo"," 234234234");
+        
         Empleado emple  = new Empleado();
         
         emple.getNum_legajo();
-        emple.getNombre();
+        emple.setNombre("Jefferson43");
+        
+        System.out.println("Nombre es: " +  emple.getNombre());
+        
+        System.out.println("Nombre es: " +  per.getNombre());
+ 
+        
         
         emple.saludarPersona();
         emple.saludarEmpleado();
@@ -38,7 +46,7 @@ public class Herencia {
         jefe1.saludarJefe();
         
         
-        
+         System.out.println("Nombre es: " +  per.getNombre());
         
                 
                 
